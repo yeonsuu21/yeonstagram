@@ -1,0 +1,33 @@
+#root{
+    .header{
+        position: fixed; //항상 상단에 떠있기
+        top: 0;
+        width: 100%;
+        background-color: white;
+        .wrapper{
+            height: 54px;
+            margin: 0 auto; //중앙정렬
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 1000px;
+            .logo{
+                width: 124px;
+                display: flex;
+                align-items: center;
+            }
+            .navigation{
+                .nav-wrapper{
+                    display: grid;
+                    grid-template-columns: repeat(2,30px);
+                    column-gap: 10px;
+                    .nav{
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+
+        }
+    }
+}
