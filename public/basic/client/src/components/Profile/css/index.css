@@ -1,0 +1,65 @@
+#root .profile {
+  padding-top: 53px;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+#root .profile .wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 36px;
+}
+#root .profile .info {
+  display: flex;
+  align-items: center;
+}
+#root .profile .info .profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  background-color: #e8e8e8;
+  margin-right: 18px;
+  flex-shrink: 0;
+}
+#root .profile .info .profile-desc {
+  flex: 1;
+}
+#root .profile .info .profile-desc .nickname {
+  font-size: 16px;
+  color: #262626;
+}
+#root .profile .info .profile-desc .quote {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 12px;
+  color: #454545;
+}
+#root .profile .info .profile-desc .quote textarea {
+  border: none;
+  resize: none;
+  width: 100%;
+  height: 72px;
+  background-color: #fafafa;
+}
+#root .profile .info .profile-desc .follow-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid #e8e8e8;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #262626;
+  font-size: 12px;
+  margin-top: 12px;
+}
+#root .profile .feed-images {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  height: 170px;
+  width: 100%;
+}
+#root .profile .feed-images .feed-image img {
+  width: unset;
+}/*# sourceMappingURL=index.css.map */
